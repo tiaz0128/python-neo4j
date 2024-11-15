@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "python-neo4j"
+version = "0.1.0"
+description = ""
+authors = ["dev0128 <joo@clo-guard.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+neo4j = "^5.26.0"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
